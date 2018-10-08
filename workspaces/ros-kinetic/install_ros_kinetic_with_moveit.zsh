@@ -38,9 +38,17 @@ sudo apt-get install -y python-wstool python-catkin-tools clang-format-3.8
 sudo apt-get install -y ros-kinetic-moveit* ros-kinetic-gazebo* ros-kinetic-ros-control ros-kinetic-ros-controllers libompl-dev ompl-demos
 sudo apt-get install -y ros-kinetic-trac-ik-kinematics-plugin
 sudo apt-get install -y ros-kinetic-yocs-* ros-kinetic-ecl-* ros-kinetic-ecto-*
-sudo apt-get install -y ros-kinetic-manipulation-msgs 
+sudo apt-get install -y ros-kinetic-manipulation-msgs
+
+sudo apt-get install -y ros-kinetic-openni-* ros-kinetic-openni2-* ros-kinetic-freenect-* ros-kinetic-usb-cam ros-kinetic-laser-* ros-kinetic-slam-gmapping ros-kinetic-joystick-drivers
+sudo apt-get install -y ros-kinetic-orocos-kdl ros-kinetic-python-orocos-kdl ros-kinetic-dynamixel-motor-* ros-kinetic-vision-opencv ros-kinetic-depthimage-to-laserscan ros-kinetic-arbotix-*
+sudo apt-get install -y ros-kinetic-move-base ros-kinetic-map-server ros-kinetic-fake-localization ros-kinetic-amcl ros-kinetic-moveit-ros ros-kinetic-ecto ros-kinetic-manipulation-msgs
+sudo apt-get install -y ros-kinetic-navigation ros-kinetic-gazebo-ros-control ros-kinetic-ros-controllers ros-kinetic-ros-control ros-kinetic-sound-play ros-kinetic-slam-gmapping
+sudo apt-get install -y ros-kinetic-moveit-visual-tools ros-kinetic-moveit-simple-controller-manager ros-kinetic-moveit-planners-ompl ros-kinetic-moveit-fake-controller-manager ros-kinetic-moveit-commander
+
+sudo apt-get install -y python-rosinstall python-setuptools python-opencv libasound2-dev libopencv-dev mercurial
 
 source /opt/ros/kinetic/setup.zsh
 
-sudo apt-get autoremove
+sudo apt-get -y autoremove
 
