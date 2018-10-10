@@ -44,8 +44,8 @@ ros-kinetic-sound-play ros-kinetic-slam-gmapping ros-kinetic-moveit-visual-tools
 ros-kinetic-moveit-fake-controller-manager ros-kinetic-moveit-commander python-rosinstall python-setuptools python-opencv libasound2-dev libopencv-dev mercurial libgflags2v5 \
 ros-kinetic-industrial-core ros-kinetic-industrial-deprecated ros-kinetic-industrial-msgs ros-kinetic-industrial-robot-client ros-kinetic-industrial-robot-simulator \
 ros-kinetic-industrial-trajectory-filters ros-kinetic-industrial-utils ros-kinetic-moveit ros-kinetic-moveit-controller-manager-example ros-kinetic-moveit-planners ros-kinetic-moveit-plugins \
-ros-kinetic-moveit-pr2 ros-kinetic-moveit-python ros-kinetic-moveit-resources ros-kinetic-moveit-ros-control-interface ros-kinetic-moveit-runtime ros-kinetic-moveit-setup-assistant \
-ros-kinetic-moveit-sim-controller ros-kinetic-pr2-moveit-config ros-kinetic-pr2-moveit-plugins ros-kinetic-ros-control-boilerplate ros-kinetic-rosparam-shortcuts ros-kinetic-simple-message
+ros-kinetic-moveit-python ros-kinetic-moveit-resources ros-kinetic-moveit-ros-control-interface ros-kinetic-moveit-runtime ros-kinetic-moveit-setup-assistant ros-kinetic-moveit-sim-controller \
+ros-kinetic-ros-control-boilerplate ros-kinetic-rosparam-shortcuts ros-kinetic-simple-message
 
 source /opt/ros/kinetic/setup.zsh
 
