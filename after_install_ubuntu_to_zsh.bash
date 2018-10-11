@@ -6,7 +6,7 @@ sudo apt-get remove -y aisleriot gnome-mines cheese transmission-common gnome-or
 
 sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
 
-sudo apt-get install -y zsh git powerline fonts-powerline vim
+sudo apt-get install -y zsh git powerline fonts-powerline vim terminator
 chsh -s /bin/zsh
 
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
