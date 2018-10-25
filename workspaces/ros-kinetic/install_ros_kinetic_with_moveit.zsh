@@ -35,17 +35,20 @@ rosdep update
 sudo apt-get update
 
 sudo apt-get install -y \
-python-wstool python-catkin-tools clang-format-3.8 ros-kinetic-moveit* ros-kinetic-gazebo* ros-kinetic-ros-control ros-kinetic-ros-controllers libompl-dev ompl-demos \
-ros-kinetic-trac-ik-kinematics-plugin ros-kinetic-yocs-* ros-kinetic-ecl-* ros-kinetic-ecto-* ros-kinetic-manipulation-msgs ros-kinetic-openni-* ros-kinetic-openni2-* \
-ros-kinetic-freenect-* ros-kinetic-usb-cam ros-kinetic-laser-* ros-kinetic-slam-gmapping ros-kinetic-joystick-drivers ros-kinetic-orocos-kdl ros-kinetic-python-orocos-kdl \
-ros-kinetic-dynamixel-motor-* ros-kinetic-vision-opencv ros-kinetic-depthimage-to-laserscan ros-kinetic-arbotix-* ros-kinetic-move-base ros-kinetic-map-server ros-kinetic-fake-localization \
-ros-kinetic-amcl ros-kinetic-moveit-ros ros-kinetic-ecto ros-kinetic-manipulation-msgs ros-kinetic-navigation ros-kinetic-gazebo-ros-control ros-kinetic-ros-controllers ros-kinetic-ros-control \
+python-wstool python-catkin-tools clang-format-3.8 ros-kinetic-moveit* ros-kinetic-gazebo* ros-kinetic-ros-control libompl-dev ompl-demos ros-kinetic-trac-ik-kinematics-plugin \
+ros-kinetic-yocs-* ros-kinetic-ecl-* ros-kinetic-ecto-* ros-kinetic-manipulation-msgs ros-kinetic-openni-* ros-kinetic-openni2-* ros-kinetic-freenect-* \
+ros-kinetic-usb-cam ros-kinetic-laser-* ros-kinetic-slam-gmapping ros-kinetic-joystick-drivers ros-kinetic-orocos-kdl ros-kinetic-python-orocos-kdl ros-kinetic-dynamixel-motor-* \
+ros-kinetic-vision-opencv ros-kinetic-depthimage-to-laserscan ros-kinetic-arbotix-* ros-kinetic-move-base ros-kinetic-map-server ros-kinetic-fake-localization \
+ros-kinetic-amcl ros-kinetic-moveit-ros ros-kinetic-ecto ros-kinetic-manipulation-msgs ros-kinetic-navigation ros-kinetic-gazebo-ros-control ros-kinetic-ros-control \
 ros-kinetic-sound-play ros-kinetic-slam-gmapping ros-kinetic-moveit-visual-tools ros-kinetic-moveit-simple-controller-manager ros-kinetic-moveit-planners-ompl \
 ros-kinetic-moveit-fake-controller-manager ros-kinetic-moveit-commander python-rosinstall python-setuptools python-opencv libasound2-dev libopencv-dev mercurial libgflags2v5 \
 ros-kinetic-industrial-core ros-kinetic-industrial-deprecated ros-kinetic-industrial-msgs ros-kinetic-industrial-robot-client ros-kinetic-industrial-robot-simulator \
 ros-kinetic-industrial-trajectory-filters ros-kinetic-industrial-utils ros-kinetic-moveit ros-kinetic-moveit-controller-manager-example ros-kinetic-moveit-planners ros-kinetic-moveit-plugins \
 ros-kinetic-moveit-python ros-kinetic-moveit-resources ros-kinetic-moveit-ros-control-interface ros-kinetic-moveit-runtime ros-kinetic-moveit-setup-assistant ros-kinetic-moveit-sim-controller \
 ros-kinetic-ros-control-boilerplate ros-kinetic-rosparam-shortcuts ros-kinetic-simple-message
+
+sudo apt-get install -y \
+ros-kinetic-moveit* ros-kinetic-dynamixel-sdk ros-kinetic-dynamixel-workbench-toolbox
 
 source /opt/ros/kinetic/setup.zsh
 
